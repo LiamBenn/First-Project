@@ -34,8 +34,12 @@ p {
 }
 
 .right-section {
-  background-color: lightblue;
-  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+  margin-right: 24px;
+  flex-shrink: 0;
 }
 
 /* ICONS */
@@ -56,8 +60,8 @@ p {
   border: 1px solid #ccc;
   height: 36px;
   padding-left: 10px;
-  border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
 }
 
 .search-bar::placeholder {
@@ -71,8 +75,7 @@ p {
   margin-left: -1px;
   height: 40px;
   width: 66px;
-  border-radius: 0;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .voice-search-button {
@@ -91,6 +94,18 @@ p {
 .search-icon {
   height: 24px;
   margin-top: 4px;
+}
+
+.upload-icon,
+.apps-icon,
+.notifications-icon,
+.current-user-pic {
+  height: 24px;
+}
+
+.current-user-pic {
+  border-radius: 20px;
+  height: 30px;
 }
 
 /* VIDEO SECTION */
