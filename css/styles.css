@@ -3,6 +3,7 @@ body {
   font-family: Roboto, Arial;
   color: black;
   margin: 0;
+  padding-top: 55px;
 }
 
 p {
@@ -17,6 +18,10 @@ p {
   flex-direction: row;
   justify-content: space-between;
   height: 55px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
 }
 
 .left-section {
