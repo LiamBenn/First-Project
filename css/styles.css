@@ -65,10 +65,26 @@ p {
   font-size: 16px;
 }
 
+/* SIDEBAR */
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 56px;
+  bottom: 0;
+  background-color: white;
+  z-index: 200;
+  width: 72px;
+}
+
 /* ICONS */
 
 .icons {
   cursor: pointer;
+}
+
+.sidebar-icons {
+  width: 22px;
 }
 
 .youtube-icon {
