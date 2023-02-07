@@ -77,14 +77,29 @@ p {
   width: 72px;
 }
 
-/* ICONS */
+.sidebar-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 74px;
+}
 
-.icons {
-  cursor: pointer;
+.sidebar-link:hover {
+  background-color: rgb(202, 202, 202);
+}
+
+.sidebar-text {
+  font-size: 11px;
 }
 
 .sidebar-icons {
   width: 22px;
+}
+/* ICONS */
+
+.icons {
+  cursor: pointer;
 }
 
 .youtube-icon {
@@ -145,6 +160,7 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+  padding-left: 80px;
 }
 
 .video-info-grid {
