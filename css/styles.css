@@ -56,6 +56,8 @@ p {
   color: #3d3d3d;
   font-size: 16px;
   border: 1px solid #ccc;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
   height: 36px;
   padding-left: 10px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
@@ -77,6 +79,7 @@ p {
   background-color: white;
   z-index: 200;
   width: 72px;
+  padding-top: 5px;
 }
 
 .sidebar-link {
@@ -92,11 +95,12 @@ p {
 }
 
 .sidebar-text {
-  font-size: 11px;
+  font-size: 10px;
 }
 
 .sidebar-icons {
   width: 24px;
+  margin-bottom: 5px;
 }
 /* ICONS */
 
@@ -149,6 +153,10 @@ p {
 
 .search-button:hover {
   background-color: rgba(202, 202, 202, 0.356);
+}
+
+.search-button:active {
+  background-color: rgba(202, 202, 202, 0.5);
 }
 
 .voice-search-button {
