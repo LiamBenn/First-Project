@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: rgb(247, 247, 247);
   font-family: Roboto, Arial;
   color: black;
   margin: 0;
@@ -89,19 +89,20 @@ p {
   justify-content: center;
   align-items: center;
   height: 74px;
+  cursor: pointer;
 }
 
 .sidebar-link:hover {
   background-color: rgba(202, 202, 202, 0.356);
 }
 
-.sidebar-text {
-  font-size: 10px;
-}
-
 .sidebar-icons {
   width: 24px;
   margin-bottom: 5px;
+}
+
+.sidebar-text {
+  font-size: 10px;
 }
 
 /* ICONS */
@@ -232,13 +233,13 @@ p {
 }
 
 .profile-picture {
-  width: 40px;
+  width: 36px;
   border-radius: 50px;
   cursor: pointer;
 }
 
 .thumbnail-row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   position: relative;
 }
 
